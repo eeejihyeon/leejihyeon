@@ -1,0 +1,287 @@
+:root {
+  --text-color: #121211;
+  --accent-color: #0a4b36;
+}
+
+body {
+  background-color: #fffbf0;
+}
+
+.int_bld {
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.bld {
+  font-weight: 500;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+  height: 4.2rem;
+  z-index: 10;
+}
+
+/*** GNB ***/
+.gnb {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: #fffbf0;
+  opacity: 90%;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  padding: 20px;
+}
+.dn {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.btn {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  width: 75px;
+  height: 25px;
+  border: 1px solid #121211;
+  border-radius: 50% / 50%;
+  background-color: #fffbf0;
+  cursor: pointer;
+}
+
+/*** Intro ***/
+
+.intro_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 100px;
+  text-align: center;
+  line-height: 80px;
+  margin-bottom: 60px;
+  font-weight: 300;
+}
+
+.intro_name {
+  width: 209px;
+  height: 70px;
+  border: 2px solid #121211;
+  border-radius: 50% / 50%;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 70px;
+  text-align: center;
+  margin: 80px auto;
+}
+
+/*** About Me ***/
+.about_wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0 5%;
+  margin-bottom: 10%;
+}
+
+/* Link */
+
+.about_container1 ul {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: center;
+  font-size: 2.5rem;
+  flex-flow: row nowrap;
+  margin-bottom: 2%;
+}
+
+.about_container1 > ul > li > a:hover {
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+/* Profile */
+
+.about_container2 {
+  flex-flow: row nowrap;
+}
+
+.about_profile {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  transition: 0.2s ease;
+}
+
+.about_name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+.name {
+  flex-shrink: 0;
+  margin-right: 20px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: var(--text-color);
+}
+.about_profile p {
+  font-size: 1.4rem;
+}
+
+.about_intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec {
+  flex-basis: 47%;
+}
+
+.p_eng {
+  font-family: "Raleway";
+  font-size: 1.12rem;
+}
+
+/*** Skill & Tool ***/
+
+.st_wrap {
+  padding: 0 5%;
+  margin-bottom: 10%;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.st_container1 {
+  width: 100%;
+  margin: 0 auto 3.1rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+/* .st_dev {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.st_des {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+} */
+
+.st_container1 p {
+  width: 135px;
+  height: 45px;
+  border: 2px solid #121211;
+  border-radius: 50%/50%;
+  margin: 10px;
+  line-height: 45px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.st_container2 {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.st_container2 p {
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: var(--accent-color);
+}
+
+.st_det {
+  flex-basis: 47%;
+  margin-bottom: 2.5rem;
+}
+
+.st_det hr {
+  height: 2px;
+  background-color: #121211;
+  border: 0;
+  margin-bottom: 5%;
+}
+
+/** Projects **/
+
+.proj_wrap {
+  padding: 0 5%;
+  margin-bottom: 10%;
+}
+
+.proj_container1 {
+  margin-bottom: 3rem;
+}
+
+.sub {
+  width: 135px;
+  height: 45px;
+  border: 2px solid #121211;
+  border-radius: 50%/50%;
+  margin: 0.6rem auto 2rem;
+  line-height: 45px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.proj_box {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.proj_item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 47%;
+}
+
+.proj_item img {
+  /* width: 30%; */
+  height: 220px;
+  margin-bottom: 0.6rem;
+}
+
+.proj_item a {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+  cursor: pointer;
+}
+
+/*** FAQ ***/
+.faq_wrap {
+  padding: 0 5%;
+  margin-bottom: 10%;
+}
+
+/*** Footer ***/
+.footer {
+  padding: 0 5%;
+}
