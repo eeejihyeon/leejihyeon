@@ -70,7 +70,7 @@ body {
   align-items: center;
   font-size: 100px;
   text-align: center;
-  line-height: 80px;
+  line-height: 90px;
   margin-bottom: 60px;
   font-weight: 300;
 }
@@ -201,7 +201,7 @@ body {
 .st_container1 p {
   width: 135px;
   height: 45px;
-  border: 2px solid #121211;
+  border: 1px solid #121211;
   border-radius: 50%/50%;
   margin: 10px;
   line-height: 45px;
@@ -216,7 +216,7 @@ body {
 }
 
 .st_container2 p {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   color: var(--accent-color);
 }
 
@@ -239,12 +239,11 @@ body {
 .sub {
   width: 135px;
   height: 45px;
-  border: 2px solid #121211;
+  border: 1px solid #121211;
   border-radius: 50%/50%;
   margin: 0.6rem auto 2rem;
   line-height: 45px;
   text-align: center;
-  font-weight: 500;
 }
 
 .proj_box {
