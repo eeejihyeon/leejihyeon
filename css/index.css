@@ -12,11 +12,12 @@ body {
 
 .int_bld {
   color: var(--accent-color);
-  font-weight: 500;
 }
 
-.bld {
-  font-weight: 500;
+.acnt {
+  font-family: "Ortica";
+  font-size: 1.4rem;
+
   margin-right: 0.5rem;
 }
 
@@ -34,7 +35,7 @@ body {
   display: flex;
   justify-content: center;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #fffbf0;
   opacity: 95%;
 }
 
@@ -53,9 +54,9 @@ body {
 }
 
 .btn {
-  font-family: "Raleway";
+  font-family: "Poppins";
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 400;
   position: absolute;
   top: 20px;
   right: 50px;
@@ -101,8 +102,7 @@ body {
   height: 70px;
   border: 2px solid #121211;
   border-radius: 50% / 50%;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 20px;
   line-height: 70px;
   text-align: center;
   margin: 80px auto;
@@ -136,7 +136,6 @@ body {
 
 .about_container1 > ul > li > a:hover {
   color: var(--accent-color);
-  font-weight: 500;
   transition: all 0.3s;
 }
 
@@ -166,7 +165,9 @@ body {
   background-color: var(--text-color);
 }
 .about_profile p {
-  font-size: 1.4rem;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 1.2rem;
 }
 
 .about_intro {
@@ -179,8 +180,15 @@ body {
 }
 
 .p_eng {
-  font-family: "Raleway";
+  font-family: "Poppins";
   font-size: 1.12rem;
+  font-weight: 300;
+  line-height: 1.3rem;
+}
+
+.p_kor {
+  font-family: "Spoqa Han Sans Neo";
+  font-weight: 300;
 }
 
 /*** Skill & Tool ***/
@@ -235,7 +243,6 @@ body {
 
 .st_container2 p {
   font-size: 1.9rem;
-  font-weight: 500;
   color: var(--accent-color);
 }
 
@@ -250,6 +257,11 @@ body {
   background-color: #121211;
   border: 0;
   margin-bottom: 5%;
+}
+
+.st_det span {
+  font-family: "Spoqa Han Sans Neo";
+  font-weight: 300;
 }
 
 /** Projects **/

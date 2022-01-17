@@ -9,11 +9,12 @@ body {
 
 .int_bld {
   color: var(--accent-color);
-  font-weight: 500;
 }
 
-.bld {
-  font-weight: 500;
+.acnt {
+  font-family: "Ortica";
+  font-size: 1.4rem;
+  margin-right: 0.5rem;
 }
 
 /* header */
@@ -79,8 +80,7 @@ body {
   height: 70px;
   border: 2px solid #121211;
   border-radius: 50% / 50%;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 20px;
   line-height: 70px;
   text-align: center;
   margin: 80px auto;
@@ -143,9 +143,6 @@ body {
   height: 2px;
   background-color: var(--text-color);
 }
-.about_profile p {
-  font-size: 1.4rem;
-}
 
 .about_intro {
   display: flex;
@@ -157,8 +154,16 @@ body {
 }
 
 .p_eng {
-  font-family: "Raleway";
+  font-family: "Poppins";
   font-size: 1.12rem;
+  font-weight: 300;
+  line-height: 1.3rem;
+}
+
+.p_kor {
+  font-family: "Spoqa Han Sans Neo";
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 /*** Skill & Tool ***/
@@ -212,20 +217,12 @@ body {
 
 .st_container2 p {
   font-size: 1.9rem;
-  font-weight: 500;
   color: var(--accent-color);
 }
 
 .st_det {
   flex-basis: 47%;
   margin-bottom: 2.5rem;
-}
-
-.st_det hr {
-  height: 2px;
-  background-color: #121211;
-  border: 0;
-  margin-bottom: 5%;
 }
 
 /** Projects **/

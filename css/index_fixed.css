@@ -1,6 +1,6 @@
 :root {
   --text-color: #121211;
-  --accent-color: #0a4b36;
+  --accent-color: #e68c6d;
 }
 
 body {
@@ -146,8 +146,9 @@ body {
 }
 
 .p_eng {
-  font-family: "Raleway";
+  font-family: "Poppins";
   font-size: 1.12rem;
+  font-weight: 300;
 }
 
 /*** Skill & Tool ***/
