@@ -1,6 +1,6 @@
 :root {
   --text-color: #121211;
-  --accent-color: #0a4b36;
+  --accent-color: #e68c6d;
 }
 
 body {
@@ -32,7 +32,7 @@ body {
   padding: 0 2%;
   position: fixed;
   background-color: #fffbf0;
-  opacity: 90%;
+  opacity: 95%;
 }
 
 .menu {
@@ -56,7 +56,7 @@ body {
   height: 25px;
   border: 1px solid #121211;
   border-radius: 50% / 50%;
-  background-color: #fffbf0;
+  background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
 }
 
