@@ -50,7 +50,8 @@ p {
 }
 
 body {
-  font-family: "Ortica", arial, "Poppins", "Spoqa Han Sans Neo";
+  font-family: "Ortica", "PoppinsL", "PoppinsB", "PoppinsT", "Poppins",
+    "Spoqa Han Sans Neo";
   font-size: 16px;
   /* line-height: 1.5; */
 }

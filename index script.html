@@ -40,23 +40,23 @@
     function modeHandler(self) {
       var target = document.querySelector('body');
       if (self.value === 'Night') {
-        Body.setBackgroundColor('#121211');
-        Body.setColor('#fffbf0');
-        Body.setNavColor('#121211');
+        Body.setBackgroundColor('#121213');
+        Body.setColor('#f4f4f4');
+        Body.setNavColor('#121213');
 
         self.value = 'Day';
 
-        Links.setColor('#fffbf0');
+        Links.setColor('#f4f4f4');
 
       } else {
-        Body.setBackgroundColor('#fffbf0');
-        Body.setColor('#121211');
-        Body.setNavColor('#fffbf0');
+        Body.setBackgroundColor('#f4f4f4');
+        Body.setColor('#121213');
+        Body.setNavColor('#f4f4f4');
 
 
         self.value = 'Night';
 
-        Links.setColor('#121211');
+        Links.setColor('#121213');
 
       }
 

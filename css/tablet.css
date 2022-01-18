@@ -1,10 +1,10 @@
 :root {
-  --text-color: #121211;
-  --accent-color: #e68c6d;
+  --text-color: #121213;
+  --accent-color: #4465cf;
 }
 
 body {
-  background-color: #fffbf0;
+  background-color: #f4f4f4;
 }
 
 .int_bld {
@@ -31,7 +31,7 @@ body {
   display: flex;
   justify-content: center;
   position: fixed;
-  background-color: #fffbf0;
+  background-color: #f4f4f4;
   opacity: 95%;
 }
 
@@ -55,7 +55,7 @@ body {
   right: 50px;
   width: 75px;
   height: 25px;
-  border: 1px solid #121211;
+  border: 1px solid #121213;
   border-radius: 50% / 50%;
   background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
@@ -78,7 +78,7 @@ body {
 .intro_name {
   width: 209px;
   height: 70px;
-  border: 2px solid #121211;
+  border: 2px solid #121213;
   border-radius: 50% / 50%;
   font-size: 20px;
   line-height: 70px;
@@ -201,7 +201,7 @@ body {
 .st_container1 p {
   width: 135px;
   height: 45px;
-  border: 1px solid #121211;
+  border: 1px solid #121213;
   border-radius: 50%/50%;
   margin: 10px;
   line-height: 45px;
@@ -239,7 +239,7 @@ body {
 .sub {
   width: 135px;
   height: 45px;
-  border: 1px solid #121211;
+  border: 1px solid #121213;
   border-radius: 50%/50%;
   margin: 0.6rem auto 2rem;
   line-height: 45px;

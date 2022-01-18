@@ -1,10 +1,10 @@
 :root {
-  --text-color: #121211;
-  --accent-color: #e68c6d;
+  --text-color: #121213;
+  --accent-color: #4465cf;
 }
 
 body {
-  background-color: #fffbf0;
+  background-color: #f4f4f4;
 }
 
 .int_bld {
@@ -40,7 +40,7 @@ body {
   align-items: center;
   position: absolute;
   top: 63px;
-  background-color: #fffbf0;
+  background-color: #f4f4f4;
   opacity: 95%;
 }
 
@@ -58,7 +58,7 @@ body {
 .nav_bg {
   width: 100%;
   height: 63px;
-  background-color: #fffbf0;
+  background-color: #f4f4f4;
   opacity: 91%;
   position: fixed;
   top: 0;
@@ -95,7 +95,7 @@ body {
 .intro_name {
   width: 150px;
   height: 50px;
-  border: 1px solid #121211;
+  border: 1px solid #121213;
   border-radius: 50% / 50%;
   font-size: 14px;
   line-height: 50px;
@@ -227,7 +227,7 @@ body {
 .st_container1 p {
   width: 135px;
   height: 45px;
-  border: 1px solid #121211;
+  border: 1px solid #121213;
   border-radius: 50%/50%;
   margin: 10px;
   line-height: 45px;
@@ -265,7 +265,7 @@ body {
 .sub {
   width: 135px;
   height: 45px;
-  border: 1px solid #121211;
+  border: 1px solid #121213;
   border-radius: 50%/50%;
   margin: 0.6rem auto 2rem;
   line-height: 45px;

@@ -1,13 +1,13 @@
 :root {
-  --text-color: #121211;
-  --accent-color: #e68c6d;
+  --text-color: #121213;
+  --accent-color: #4465cf;
 }
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #fffbf0;
+  background-color: #f4f4f4;
 }
 
 .int_bld {
@@ -19,6 +19,13 @@ body {
   font-size: 1.4rem;
 
   margin-right: 0.5rem;
+}
+
+.point {
+  font-family: "spoqa han sans neo";
+  font-weight: 500;
+  font-size: 1rem;
+  color: #4465cf;
 }
 
 /* header */
@@ -35,7 +42,7 @@ body {
   display: flex;
   justify-content: center;
   position: fixed;
-  background-color: #fffbf0;
+  background-color: #f4f4f4;
   opacity: 95%;
 }
 
@@ -60,7 +67,7 @@ body {
 }
 
 .btn {
-  font-family: "Poppins";
+  font-family: "Ortica";
   font-size: 12px;
   font-weight: 400;
   position: absolute;
@@ -68,7 +75,7 @@ body {
   right: 50px;
   width: 75px;
   height: 25px;
-  border: 1px solid #121211;
+  border: 1px solid #121213;
   border-radius: 50% / 50%;
   background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
@@ -77,10 +84,10 @@ body {
 .btn:hover {
   width: 75px;
   height: 25px;
-  border: 2px solid #121211;
+  border: 2px solid #121213;
   border-radius: 50% / 50%;
-  background-color: #121211;
-  color: #fffbf0;
+  background-color: #121213;
+  color: #f4f4f4;
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -114,7 +121,7 @@ body {
 .intro_name {
   width: 209px;
   height: 70px;
-  border: 2px solid #121211;
+  border: 2px solid #121213;
   border-radius: 50% / 50%;
   font-size: 20px;
   line-height: 70px;
@@ -191,12 +198,12 @@ body {
 
 .sec {
   flex-basis: 47%;
+  /* text-align: justify; */
 }
 
 .p_eng {
-  font-family: "Poppins";
+  font-family: "PoppinsT";
   font-size: 1.12rem;
-  font-weight: 300;
   line-height: 1.3rem;
 }
 
@@ -241,7 +248,7 @@ body {
 .st_container1 p {
   width: 135px;
   height: 45px;
-  border: 1px solid #121211;
+  border: 1px solid #121213;
   border-radius: 50%/50%;
   margin: 10px;
   line-height: 45px;
@@ -268,9 +275,9 @@ body {
 
 .st_det hr {
   height: 2px;
-  background-color: #121211;
+  background-color: #121213;
   border: 0;
-  margin-bottom: 5%;
+  margin-bottom: 1rem;
 }
 
 .st_det span {
@@ -292,7 +299,7 @@ body {
 .sub {
   width: 135px;
   height: 45px;
-  border: 1px solid #121211;
+  border: 1px solid #121213;
   border-radius: 50%/50%;
   margin: 0.6rem auto 2rem;
   line-height: 45px;
@@ -331,6 +338,43 @@ body {
   margin-bottom: 10%;
 }
 
+.faq_content {
+  border-bottom: 1px solid #121213;
+}
+
+.question {
+  font-family: "spoqa han sans neo";
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 1.4rem 0.2rem;
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.question:hover {
+  color: var(--accent-color);
+}
+
+.question:focus {
+  color: var(--accent-color);
+}
+
+[id$="-toggle"] {
+  margin-right: 15px;
+}
+
+.answer {
+  font-family: "spoqa han sans neo";
+  font-weight: 300;
+  font-size: 1rem;
+  display: none;
+  padding: 0 2.5rem 1rem;
+}
+
 /*** Footer ***/
 .footer {
   padding: 0 10%;
@@ -338,14 +382,32 @@ body {
 
 .footer hr {
   height: 2px;
-  background-color: #121211;
-  border: 0;
-  margin-bottom: 5%;
+  background-color: #121213;
+  margin-bottom: 30px;
+  border: none;
+}
+
+.footer_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_title {
+  margin-bottom: 20px;
+}
+
+.site_info {
+  font-family: "spoqa han sans neo";
+  font-weight: 300;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+  flex-basis: 49%;
 }
 
 /* Contact */
 .contact_wrap {
   margin-bottom: 10%;
+  flex-basis: 49%;
 }
 
 .copy {
