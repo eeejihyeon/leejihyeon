@@ -260,7 +260,8 @@ body {
 
 .proj_item img {
   /* width: 30%; */
-  height: 220px;
+  /* height: 250px; */
+  display: block;
   margin-bottom: 0.6rem;
 }
 
