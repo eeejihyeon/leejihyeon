@@ -348,43 +348,109 @@ body {
 .faq_wrap {
   padding: 0 10%;
   margin-bottom: 10%;
+  box-sizing: border-box;
 }
 
-.faq_content {
-  border-bottom: 1px solid #121213;
+.faq_box .faq_item {
+  padding: 0 1rem;
+  border-bottom: 1px solid #5f5f5f;
 }
 
-.question {
-  font-family: "spoqa han sans neo";
-  font-weight: 400;
-  font-size: 1.1rem;
-  padding: 1.4rem 0.2rem;
-  border: none;
-  outline: none;
-  background: none;
-  width: 100%;
+.faq_box .faq_item button[aria-eapanded="true"] {
+  border-bottom: 1px solid #617c9b;
+}
+
+.faq_box button {
+  position: relative;
+  display: block;
   text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #000;
+  font-size: 1.15rem;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.faq_box button:hover,
+.faq_box button:focus {
   cursor: pointer;
+  color: #617c9b;
+  transition: all 0.3s;
 }
 
-.question:hover {
-  color: var(--accent-color);
+.faq_box button:hover::after,
+.faq_box button:focus::after {
+  cursor: pointer;
+  color: #617c9b;
+  border: 1px solid #617c9b;
 }
 
-.question:focus {
-  color: var(--accent-color);
+.faq_box button .faq_title {
+  padding: 1em 1.5em 1em 0;
 }
 
-[id$="-toggle"] {
-  margin-right: 15px;
+.faq_box button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
 }
 
-.answer {
-  font-family: "spoqa han sans neo";
-  font-weight: 300;
+.faq_box button .icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: 6px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+
+.faq_box button .icon::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 6px;
+  left: 10px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.faq_box button[aria-expanded="true"] {
+  color: #617c9b;
+}
+
+.faq_box button[aria-expanded="true"] .icon::after {
+  width: 0;
+}
+
+.faq_box button[aria-expanded="true"] + .faq_content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 0.5s linear;
+  will-change: opacity, max-height;
+}
+
+.faq_box .faq_content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.5s linear, max-height 0.5s linear;
+  will-change: opacity, max-height;
+}
+
+.faq_box .faq_content p {
   font-size: 1rem;
-  display: none;
-  padding: 0 2.5rem 1rem;
+  font-weight: 300;
+  margin: 1.5rem 0;
 }
 
 /*** Footer ***/
