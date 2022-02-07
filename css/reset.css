@@ -16,6 +16,11 @@
 }
 
 @font-face {
+  font-family: "PoppinsR";
+  src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "PoppinsB";
   src: url("../fonts/Poppins-Bold.ttf") format("truetype");
 }

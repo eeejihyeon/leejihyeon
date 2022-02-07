@@ -1,6 +1,6 @@
 :root {
   --text-color: #121213;
-  --accent-color: #4465cf;
+  --accent-color: #617c9b;
 }
 html {
   scroll-behavior: smooth;
@@ -25,7 +25,13 @@ body {
   font-family: "spoqa han sans neo";
   font-weight: 500;
   font-size: 1rem;
-  color: #4465cf;
+  color: #617c9b;
+}
+
+.point_eng {
+  font-family: "PoppinsR";
+  font-size: 1.12rem;
+  color: #617c9b;
 }
 
 /* header */
@@ -75,6 +81,7 @@ body {
   right: 50px;
   width: 75px;
   height: 25px;
+  line-height: 1.6;
   border: 1px solid #121213;
   border-radius: 50% / 50%;
   background-color: rgba(0, 0, 0, 0);
