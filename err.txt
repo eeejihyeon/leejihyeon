@@ -1,2 +1,3 @@
 * 22-02-08
-  mobile 버전 FAQ에서 햄버거 메뉴 선택하면 FAQ가 더 위에 올라오는 현상
+  FAQ에서 GNB 배경보다 FAQ가 더 위에 올라오는 현상
+  : CSS .gnb에 z-index 주니까 해결
