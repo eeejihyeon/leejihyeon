@@ -352,12 +352,12 @@ body {
 }
 
 .faq_box .faq_item {
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   border-bottom: 1px solid #5f5f5f;
 }
 
-.faq_box .faq_item button[aria-eapanded="true"] {
-  border-bottom: 1px solid #617c9b;
+.faq_box .faq_item button[aria-expanded="true"] {
+  border-bottom: 2px solid #617c9b;
 }
 
 .faq_box button {
@@ -365,7 +365,7 @@ body {
   display: block;
   text-align: left;
   width: 100%;
-  padding: 1em 0;
+  padding: 0.8rem 0;
   color: #000;
   font-size: 1.15rem;
   border: none;
@@ -388,26 +388,27 @@ body {
 }
 
 .faq_box button .faq_title {
-  padding: 1em 1.5em 1em 0;
+  padding: 1rem 1.5rem 1rem 0.5rem;
 }
 
 .faq_box button .icon {
   display: inline-block;
   position: absolute;
-  top: 18px;
+  top: 13px;
   right: 0;
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
   border: 1px solid;
-  border-radius: 22px;
+  border-radius: 20px;
+  margin: 0 0.5rem;
 }
 
 .faq_box button .icon::before {
   display: block;
   position: absolute;
   content: "";
-  top: 10px;
-  left: 6px;
+  top: 9px;
+  left: 5px;
   width: 10px;
   height: 2px;
   background: currentColor;
@@ -417,8 +418,8 @@ body {
   display: block;
   position: absolute;
   content: "";
-  top: 6px;
-  left: 10px;
+  top: 5px;
+  left: 9px;
   width: 2px;
   height: 10px;
   background: currentColor;
@@ -435,7 +436,7 @@ body {
 .faq_box button[aria-expanded="true"] + .faq_content {
   opacity: 1;
   max-height: 9em;
-  transition: all 0.5s linear;
+  transition: all 0.3s linear;
   will-change: opacity, max-height;
 }
 
@@ -443,14 +444,14 @@ body {
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition: opacity 0.5s linear, max-height 0.5s linear;
+  transition: opacity 0.3s linear, max-height 0.5s linear;
   will-change: opacity, max-height;
 }
 
 .faq_box .faq_content p {
   font-size: 1rem;
   font-weight: 300;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0.5rem;
 }
 
 /*** Footer ***/
