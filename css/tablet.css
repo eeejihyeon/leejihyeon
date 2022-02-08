@@ -215,11 +215,6 @@ body {
   flex-flow: row wrap;
 }
 
-.st_container2 p {
-  font-size: 1.5rem;
-  color: var(--accent-color);
-}
-
 .st_det {
   flex-basis: 47%;
   margin-bottom: 2.5rem;
@@ -265,19 +260,17 @@ body {
   margin-bottom: 0.6rem;
 }
 
-.proj_item a {
-  font-size: 1.4rem;
-  font-weight: 500;
-  margin-bottom: 2.5rem;
-  cursor: pointer;
-}
-
 /*** FAQ ***/
 .faq_wrap {
+  padding: 0 5%;
   margin-bottom: 10%;
 }
 
 /*** Footer ***/
 .footer {
   padding: 0 5%;
+}
+
+.contact {
+  display: block;
 }

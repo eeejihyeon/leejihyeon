@@ -110,7 +110,7 @@ body {
 /*** Intro ***/
 .intro_wrap {
   margin-top: 8%;
-  margin-bottom: 15%;
+  /* margin-bottom: 15%; */
 }
 
 .intro_container {
@@ -270,7 +270,7 @@ body {
 }
 
 .st_container2 p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--accent-color);
 }
 
@@ -290,6 +290,7 @@ body {
 .st_det span {
   font-family: "Spoqa Han Sans Neo";
   font-weight: 300;
+  font-size: 1rem;
 }
 
 /** Projects **/
@@ -335,12 +336,16 @@ body {
 }
 
 .project_title {
+  font-size: 1.2rem;
   margin-bottom: 2.5rem;
 }
 
+.project_title:hover {
+  color: var(--accent-color);
+  transition: all 0.3s;
+}
+
 .proj_item a {
-  font-size: 1.4rem;
-  font-weight: 500;
   cursor: pointer;
 }
 
@@ -388,7 +393,7 @@ body {
 }
 
 .faq_box button .faq_title {
-  padding: 1rem 1.5rem 1rem 0.5rem;
+  padding: 1rem 1.5rem 1rem 0;
 }
 
 .faq_box button .icon {
@@ -400,7 +405,6 @@ body {
   height: 20px;
   border: 1px solid;
   border-radius: 20px;
-  margin: 0 0.5rem;
 }
 
 .faq_box button .icon::before {
@@ -435,7 +439,7 @@ body {
 
 .faq_box button[aria-expanded="true"] + .faq_content {
   opacity: 1;
-  max-height: 9em;
+  max-height: 10rem;
   transition: all 0.3s linear;
   will-change: opacity, max-height;
 }
@@ -449,9 +453,10 @@ body {
 }
 
 .faq_box .faq_content p {
-  font-size: 1rem;
+  font-family: "Spoqa Han Sans Neo";
   font-weight: 300;
-  margin: 1.5rem 0.5rem;
+  font-size: 1rem;
+  margin: 1.5rem 0;
 }
 
 /*** Footer ***/
@@ -487,6 +492,37 @@ body {
 .contact_wrap {
   margin-bottom: 10%;
   flex-basis: 49%;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_box {
+  flex-basis: 49%;
+}
+
+.contact_item {
+  display: flex;
+  margin-bottom: 0.2rem;
+}
+
+.contact li p {
+  width: 55px;
+}
+
+.contact a {
+  font-family: "Spoqa Han Sans Neo";
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-left: 0.8rem;
+}
+
+.contact a:hover {
+  color: var(--accent-color);
+  transition: all 0.3s;
 }
 
 .copy {

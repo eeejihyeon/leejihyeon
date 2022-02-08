@@ -241,11 +241,6 @@ body {
   flex-flow: row wrap;
 }
 
-.st_container2 p {
-  font-size: 1.5rem;
-  color: var(--accent-color);
-}
-
 .st_det {
   flex-basis: 100%;
   margin-bottom: 2.5rem;
@@ -272,11 +267,11 @@ body {
   text-align: center;
 }
 
-.proj_box {
+/* .proj_box {
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
-}
+} */
 
 .proj_item {
   display: flex;
@@ -288,23 +283,25 @@ body {
   /* width: 30%; */
   /* height: 250px; */
   display: block;
-  margin-bottom: 0.6rem;
-}
-
-.proj_item a {
-  font-size: 1.4rem;
-  font-weight: 500;
-  margin-bottom: 2.5rem;
-  cursor: pointer;
+  /* margin-bottom: 0.6rem; */
 }
 
 /*** FAQ ***/
 .faq_wrap {
-  /* padding: 0 5%; */
+  padding: 0 5%;
   margin-bottom: 10%;
 }
 
 /*** Footer ***/
 .footer {
   padding: 0 5%;
+}
+
+.footer_wrap {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.info_wrap {
+  margin-bottom: 1.8rem;
 }
