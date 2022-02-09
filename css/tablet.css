@@ -3,6 +3,10 @@
   --accent-color: #617c9b;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f4f4f4;
 }
