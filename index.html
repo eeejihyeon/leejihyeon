@@ -1,225 +1,268 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="og:url"
+      content="https://eeejihyeon.github.io/leejihyeon/"
+    />
+    <meta property="og:title" content="LEE JIHYEON" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/og_img.png" />
+    <meta property="og:description" content="Lee Jihyeon's Portfolio" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1023px)"
+      href="css/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 767px)"
+      href="css/mobile.css"
+    />
+    <script src="js/nav.js" defer></script>
+    <title>Leejihyeon</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:url" content="https://eeejihyeon.github.io/leejihyeon/">
-  <meta property="og:title" content="LEE JIHYEON">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="images/og_img.png">
-  <meta property="og:description" content="Lee Jihyeon's Portfolio">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" media="screen and (max-width: 1023px)" href="css/tablet.css" />
-  <link rel="stylesheet" media="screen and (max-width: 767px)" href="css/mobile.css" />
-  <script src="js/nav.js" defer></script>
-  <title>Leejihyeon</title>
+  <body>
+    <!-- Header -->
+    <header id="header" class="header">
+      <!-- Nav -->
+      <nav class="gnb">
+        <ul class="menu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#scroll1">About Me</a></li>
+          <li><a href="#scroll2">Skill & Tool</a></li>
+          <li><a href="#scroll3">Projects</a></li>
+          <li><a href="#scroll4">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="nav_bg"></div>
+      <div class="dn">
+        <a href="javascript:void(0);" class="togglebtn"
+          ><img src="images/i_hamburger.png" alt="menu icon"
+        /></a>
 
-</head>
-
-<body>
-  <!-- Header -->
-  <header id="header" class="header">
-    <!-- Nav -->
-    <nav class="gnb">
-      <ul class="menu">
-        <li><a href="#header">Home</a></li>
-        <li><a href="#scroll1">About Me</a></li>
-        <li><a href="#scroll2">Skill & Tool</a></li>
-        <li><a href="#scroll3">Projects</a></li>
-        <li><a href="#scroll4">FAQ</a></li>
-      </ul>
-    </nav>
-    <div class="nav_bg"></div>
-    <div class="dn">
-      <a href='javascript:void(0);' class="togglebtn"><img src="images/i_hamburger.png" alt="menu icon"></a>
-
-      <input type="button" class="btn" value="Night" onclick="">
-    </div>
-  </header>
-
-  <!-- Content -->
-  <main id="content" class="content">
-    <!-- Intro -->
-    <div class="intro_wrap">
-      <div class="intro_container">
-        <p class="intro_item"><span class="int_bld">Front-end</span></p>
-        <p class="intro_item">Developer</p>
+        <button type="button" class="btn">Night</button>
       </div>
+    </header>
 
-      <div class="intro_container">
+    <!-- Content -->
+    <main id="content" class="content">
+      <!-- Intro -->
+      <div class="intro_wrap">
+        <div class="intro_container">
+          <p class="intro_item">
+            <span class="int_bld">Front-end</span>
+          </p>
+          <p class="intro_item">Developer</p>
+        </div>
+
+        <!-- <div class="intro_container">
         <p class="intro_item"><span class="int_bld">UXUI</span></p>
         <p class="intro_item"><span class="int_bld">Branding</span></p>
         <p class="intro_item">Designer</p>
+      </div> -->
+
+        <p id="scroll1" class="intro_name">LEE JIHYEON</p>
       </div>
 
-      <p id="scroll1" class="intro_name">LEE JIHYEON</p>
-    </div>
-
-    <!-- About Me -->
-    <div class="about_wrap">
-
-      <div class="about_container1">
-        <ul class="">
-          <li><a href="mailto:eeejihyeon@gmail.com">Email</a></li>
-          <li><a href="https://github.com/eeejihyeon" target="_blank">GitHub</a></li>
-          <li><a href="https://velog.io/@eeejihyeon" target="_blank">Blog</a></li>
-          <li><a href="https://www.notion.so/Profile-8ceeac3d1fbe4b5580cbfd91ff491564" target="_blank">Resume</a></li>
-        </ul>
-      </div>
-
-      <div class="about_container2">
-
-        <div class="about_name">
-          <h3 class="name">Lee Jihyeon</h3>
-          <div class="line"></div>
+      <!-- About Me -->
+      <div class="about_wrap">
+        <div class="about_container1">
+          <ul class="">
+            <li><a href="mailto:eeejihyeon@gmail.com">Email</a></li>
+            <li>
+              <a href="https://github.com/eeejihyeon" target="_blank">GitHub</a>
+            </li>
+            <li>
+              <a href="https://velog.io/@eeejihyeon" target="_blank">Blog</a>
+            </li>
+            <li>
+              <a
+                href="https://www.notion.so/Profile-8ceeac3d1fbe4b5580cbfd91ff491564"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+          </ul>
         </div>
 
-        <div class="about_profile">
-          <div class="sec">
-            <p><span class="acnt">Birth</span>1995.10.17</p>
-            <p><span class="acnt">Residence</span>South Korea</p>
+        <div class="about_container2">
+          <div class="about_name">
+            <h3 class="name">Lee Jihyeon</h3>
+            <hr class="line" />
           </div>
 
-          <div class="sec">
-            <p><span class="acnt">Email</span>eeejihyeon@gmail.com</p>
-            <p><span class="acnt">Phone</span>+82 10-7419-1626</p>
+          <div class="about_profile">
+            <div class="sec">
+              <p><span class="acnt">Birth</span>1995.10.17</p>
+              <p><span class="acnt">Residence</span>South Korea</p>
+            </div>
+
+            <div class="sec">
+              <p><span class="acnt">Email</span>eeejihyeon@gmail.com</p>
+              <p><span class="acnt">Phone</span>+82 10-7419-1626</p>
+            </div>
           </div>
+          <div class="about_intro">
+            <p class="sec">
+              <span class="p_eng">
+                I'm Lee Jihyeon, a
+                <span class="point_eng">front-end junior developer</span>
+                capable of web design. <br />
+                It is important to constantly
+                <span class="point_eng"
+                  >challenge, collide, and experience</span
+                >
+                without stopping. Based on what I felt while working as a web
+                designer, I am filling up my shortcomings as a developer. No
+                matter what you do,
+                <span class="point_eng"
+                  >you're trying to do it right once you start.</span
+                ></span
+              >
+            </p>
 
+            <p class="sec">
+              <span class="p_kor">
+                웹 디자인이 가능한
+                <span class="point">Front-end 주니어 개발자</span> 이지현입니다.
+                멈춰있지 않고 끊임없이
+                <span class="point">도전하고 부딪히며 경험하는 것</span>을
+                중요시합니다. 웹 디자이너로 일할 때에 협업하며 느꼈던 부분들을
+                토대로 개발자로서 부족한 부분들을 채워나가는 중입니다. 어떤 일을
+                하게 되더라도
+                <span class="point">한 번 시작했다면 제대로</span> 하자는
+                마인드로 임하고 있습니다.
+              </span>
+            </p>
+          </div>
+          <div id="scroll2"></div>
         </div>
-        <div class="about_intro">
-          <p class="sec"><span class="p_eng">
-              I'm Lee Jihyeon, a <span class="point_eng">front-end junior developer</span> capable of web design. <br>
-              It is important to constantly <span class="point_eng">challenge, collide,
-                and experience</span> without stopping. Based on what I felt while working as a web designer, I am
-              filling up my
-              shortcomings
-              as a developer. No matter what you do, <span class="point_eng">you're trying to do it right once you
-                start.</span></span>
-          </p>
-
-          <p class="sec"><span class="p_kor">
-              웹 디자인이 가능한 <span class="point">Front-end 주니어 개발자</span> 이지현입니다. 멈춰있지 않고 끊임없이 <span class="point">도전하고 부딪히며
-                경험하는 것</span>을 중요시합니다. 웹 디자이너로 일할 때에 협업하며 느꼈던 부분들을 토대로 개발자로서 부족한 부분들을 채워나가는 중입니다. 어떤 일을 하게 되더라도 <span
-                class="point">한 번 시작했다면 제대로</span> 하자는 마인드로 임하고 있습니다. </span>
-          </p>
-        </div>
-        <div id="scroll2"></div>
       </div>
 
-    </div>
+      <!-- Skill & Tool -->
+      <div class="st_wrap">
+        <h2 class="title">Skill & Tool</h2>
+        <div class="st_container1">
+          <!-- <div class="st_dev"> -->
+          <!-- <p>React</p> -->
+          <p>JavaScript</p>
+          <p>HTML/CSS</p>
+          <p>Git/GitHub</p>
+          <p>PHP</p>
+          <p>MySQL</p>
 
-
-    <!-- Skill & Tool -->
-    <div class="st_wrap">
-      <h2 class="title">Skill & Tool</h2>
-      <div class="st_container1">
-        <!-- <div class="st_dev"> -->
-        <!-- <p>React</p> -->
-        <p>JavaScript</p>
-        <p>HTML/CSS</p>
-        <p>Git/GitHub</p>
-        <p>PHP</p>
-        <p>MySQL</p>
-
-        <!-- </div>
+          <!-- </div>
         <div class="st_des"> -->
-        <p>Photoshop</p>
-        <p>Illustrator</p>
-        <p>XD</p>
-        <p>Indesign</p>
-        <!-- </div> -->
-      </div>
+          <p>Photoshop</p>
+          <p>Illustrator</p>
+          <p>XD</p>
+          <p>Indesign</p>
+          <!-- </div> -->
+        </div>
 
-      <div class="st_container2">
-        <!-- <div class="st_det">
+        <div class="st_container2">
+          <!-- <div class="st_det">
           <p>React</p>
           <hr>
           <span>내용</span>
         </div> -->
 
-        <div class="st_det">
-          <p>JavaScript ES5+</p>
-          <hr>
-          <span>Vanilla JS와
-            jQuery를 이용해 동작을 구현할 수 있습니다.
-          </span>
-        </div>
+          <div class="st_det">
+            <p>JavaScript ES5+</p>
+            <hr />
+            <span
+              >Vanilla JS와 jQuery를 이용해 동작을 구현할 수 있습니다.
+            </span>
+          </div>
 
-        <div class="st_det">
-          <p>HTML5 / CSS3</p>
-          <hr>
-          <span>웹 표준을 준수하려 노력하며 기획된 디자인을 토대로 디테일한 부분과 애니메이션 동작 등을 구현,
-            반응/적응형에 대해 이해하고 구현해낼 수 있습니다.
-          </span>
-        </div>
+          <div class="st_det">
+            <p>HTML5 / CSS3</p>
+            <hr />
+            <span
+              >웹 표준을 준수하려 노력하며 기획된 디자인을 토대로 디테일한
+              부분과 애니메이션 동작 등을 구현, 반응/적응형에 대해 이해하고
+              구현해낼 수 있습니다.
+            </span>
+          </div>
 
-        <div class="st_det">
-          <p>Git / GitHub</p>
-          <hr>
-          <span>Git을 이용해 형상관리가 가능합니다.
-            <br>
-            stage, commit에 대한 충분한 이해를 위해 꾸준히 프로젝트를 업데이트하고 관리하고 있습니다.
-          </span>
-        </div>
+          <div class="st_det">
+            <p>Git / GitHub</p>
+            <hr />
+            <span
+              >Git을 이용해 형상관리가 가능합니다.
+              <br />
+              stage, commit에 대한 충분한 이해를 위해 꾸준히 프로젝트를
+              업데이트하고 관리하고 있습니다.
+            </span>
+          </div>
 
-        <div class="st_det">
-          <p>PHP / MySQL</p>
-          <hr>
-          <span>php와 데이터베이스를 연결해 회원가입, 관리 등 데이터 관리가 가능합니다.
-          </span>
-        </div>
+          <div class="st_det">
+            <p>PHP / MySQL</p>
+            <hr />
+            <span
+              >php와 데이터베이스를 연결해 회원가입, 관리 등 데이터 관리가
+              가능합니다.
+            </span>
+          </div>
 
+          <div class="st_det">
+            <p>Photoshop / Illustrator</p>
+            <hr />
+            <span
+              >UXUI 기획 및 웹 디자인과 그래픽, 브랜딩 디자인이 가능합니다.
+            </span>
+          </div>
 
-        <div class="st_det">
-          <p>Photoshop / Illustrator</p>
-          <hr>
-          <span>UXUI 기획 및 웹 디자인과 그래픽, 브랜딩 디자인이 가능합니다. </span>
-        </div>
+          <div class="st_det">
+            <p>XD</p>
+            <hr />
+            <span
+              >웹 디자인과 와이어 프레임 등 제작, 협업 시에 사용할 수
+              있습니다.</span
+            >
+          </div>
 
-        <div class="st_det">
-          <p>XD</p>
-          <hr>
-          <span>웹 디자인과 와이어 프레임 등 제작, 협업 시에 사용할 수 있습니다.</span>
-        </div>
-
-        <!-- <div class="st_det">
+          <!-- <div class="st_det">
           <p>Indesign</p>
           <hr>
           <span>내용</span>
         </div> -->
+        </div>
+        <div id="scroll3"></div>
       </div>
-      <div id="scroll3"></div>
-    </div>
 
+      <!-- Projects -->
+      <div id="projects" class="proj_wrap">
+        <h2 class="title">Projects</h2>
 
-    <!-- Projects -->
-    <div id="projects" class="proj_wrap">
-      <h2 class="title">Projects</h2>
-
-      <div class="proj_container1">
-        <p class="sub">Front-end</p>
-        <ul class="proj_box">
-          <li class="proj_item">
-            <a href="#">
-              <img src="./images/thum1.png" alt="" class="project_thum">
-            </a>
-            <a href="#" class="project_title">McDonald's Renewal</a>
-          </li>
-          <li class="proj_item">
-            <a href="#">
-              <img src="./images/coming.png" alt="" class="project_thum">
-            </a>
-            <a href="#" class="project_title">Project02</a>
-          </li>
-          <li class="proj_item">
-            <a href="#">
-              <img src="./images/coming.png" alt="" class="project_thum">
-            </a>
-            <a href="#" class="project_title">Project03</a>
-          </li>
-          <!-- <li class="proj_item">           
+        <div class="proj_container1">
+          <p class="sub">Front-end</p>
+          <ul class="proj_box">
+            <li class="proj_item">
+              <a href="#">
+                <img src="./images/thum1.png" alt="" class="project_thum" />
+              </a>
+              <a href="#" class="project_title">McDonald's Renewal</a>
+            </li>
+            <li class="proj_item">
+              <a href="#">
+                <img src="./images/coming.png" alt="" class="project_thum" />
+              </a>
+              <a href="#" class="project_title">Project02</a>
+            </li>
+            <li class="proj_item">
+              <a href="#">
+                <img src="./images/coming.png" alt="" class="project_thum" />
+              </a>
+              <a href="#" class="project_title">Project03</a>
+            </li>
+            <!-- <li class="proj_item">           
              <a href="#">
               <img src="./images/coming.png" alt="" class="project_thum">
             </a>
@@ -240,178 +283,209 @@
 
             <a href="#">Project06</a>
           </li> -->
-        </ul>
-      </div>
-
-      <div class="proj_container2">
-        <p class="sub">Design</p>
-        <ul class="proj_box">
-          <li class="proj_item">
-            <a href="#">
-              <img src="./images/coming.png" alt="" class="project_thum">
-            </a>
-
-            <a href="#" class="project_title">Project01</a>
-          </li>
-          <li class="proj_item">
-            <a href="#">
-              <img src="./images/coming.png" alt="" class="project_thum">
-            </a>
-
-            <a href="#" class="project_title">Project02</a>
-          </li>
-          <li class="proj_item">
-            <a href="#">
-              <img src="./images/coming.png" alt="" class="project_thum">
-            </a>
-
-            <a href="#" class="project_title">Project03</a>
-          </li>
-          <li class="proj_item">
-            <a href="#">
-              <img src="./images/coming.png" alt="" class="project_thum">
-            </a>
-
-            <a href="#" class="project_title">Project04</a>
-          </li>
-          <li class="proj_item">
-            <a href="#">
-              <img src="./images/coming.png" alt="" class="project_thum">
-            </a>
-
-            <a href="#" class="project_title">Project05</a>
-          </li>
-          <li class="proj_item">
-            <a href="#">
-              <img src="./images/coming.png" alt="" class="project_thum">
-            </a>
-
-            <a href="#" class="project_title">Project06</a>
-        </ul>
-      </div>
-      <div id="scroll4"></div>
-
-    </div>
-
-    <!-- FAQ -->
-    <div id="faq" class="faq_wrap">
-      <h2 class="title">FAQ</h2>
-
-      <div class="faq_box">
-        <div class="faq_item">
-          <button id="faq_btn_1" aria-expanded="false">
-            <span class="faq_title">디자이너에서 개발자로 전향하게 된 계기</span>
-            <span class="icon" aria-hidden="true"></span>
-          </button>
-          <div class="faq_content">
-            <p>
-              프리랜서 디자이너로 작업하던 중 웹 사이트 오픈 프로젝트에서 프론트엔드, 백엔드 개발자님들과 협업을 하게 되었고 그 과정에서 내가 한 디자인이 그대로 웹 사이트로 구현되어 가는 과정을 보며 흥미를 가지게 되면서
-              ‘디자인에 구현까지 내가 직접 하게 된다면 좀 더 섬세한 부분까지도 구현 해낼 수 있지 않을까?’ 라는 생각이 들었습니다. 기존에 HTML과 CSS 기초를 공부 해보며 관심을 가지고 있었기에 전향을 결심하게
-              되었습니다.
-            </p>
-          </div>
+          </ul>
         </div>
 
-        <div class="faq_item">
-          <button id="faq_btn_2" aria-expanded="false">
-            <span class="faq_title">차별화된 나만의 핵심 역량</span>
-            <span class="icon" aria-hidden="true"></span>
-          </button>
-          <div class="faq_content">
-            <p>
-              이전에 디자인을 공부하고 직업으로 삼았던 경험으로 UX/UI에 대한 충분한 이해도를 가지고 있다는 점과 HTML/CSS로 구현 시 보다 섬세하게 설계된 디자인 그대로 구현해 내려는 노력이 있습니다. 그리고 개발자와의
-              협업 시 원활한 커뮤니케이션을 위해 노력했던 경험들로 이제는 디자이너, 개발자 모두의 관점에서 이해하며 소통할 수 있다는 점이 차별화된 핵심 역량입니다.
-            </p>
-          </div>
+        <div class="proj_container2">
+          <p class="sub">Design</p>
+          <ul class="proj_box">
+            <li class="proj_item">
+              <a href="#">
+                <img src="./images/coming.png" alt="" class="project_thum" />
+              </a>
+
+              <a href="#" class="project_title">Project01</a>
+            </li>
+            <li class="proj_item">
+              <a href="#">
+                <img src="./images/coming.png" alt="" class="project_thum" />
+              </a>
+
+              <a href="#" class="project_title">Project02</a>
+            </li>
+            <li class="proj_item">
+              <a href="#">
+                <img src="./images/coming.png" alt="" class="project_thum" />
+              </a>
+
+              <a href="#" class="project_title">Project03</a>
+            </li>
+            <li class="proj_item">
+              <a href="#">
+                <img src="./images/coming.png" alt="" class="project_thum" />
+              </a>
+
+              <a href="#" class="project_title">Project04</a>
+            </li>
+            <li class="proj_item">
+              <a href="#">
+                <img src="./images/coming.png" alt="" class="project_thum" />
+              </a>
+
+              <a href="#" class="project_title">Project05</a>
+            </li>
+            <li class="proj_item">
+              <a href="#">
+                <img src="./images/coming.png" alt="" class="project_thum" />
+              </a>
+
+              <a href="#" class="project_title">Project06</a>
+            </li>
+          </ul>
         </div>
-
-        <div class="faq_item">
-          <button id="faq_btn_3" aria-expanded="false">
-            <span class="faq_title">기술과 업무 역량을 높이기 위한 학습 방법</span>
-            <span class="icon" aria-hidden="true"></span>
-          </button>
-          <div class="faq_content">
-            <p>
-              코딩을 배우고자 다녔던 학원에서는 Vanilla JS보다는 jQuery와 플러그인 위주로만 강의를 해주었고, Vanilla JS에 더 비중을 두고 React나 Vue 같은 프레임워크도 다룰 줄 알아야 한다는 것을
-              알았을 때부터는 개인적으로 구글링, 유튜브와 스택오버플로우 등 다양한 사이트와 인터넷 강의, 책을 찾아보며 예제를 따라 해보고 프로젝트에 응용해 보며 공부했습니다.
-            </p>
-          </div>
-        </div>
-
-        <div class="faq_item">
-          <button id="faq_btn_4" aria-expanded="false">
-            <span class="faq_title">업무에 있어서 중요하게 생각하는 점</span>
-            <span class="icon" aria-hidden="true"></span>
-          </button>
-          <div class="faq_content">
-            <p>
-              어떤 분야에서든 협업과 커뮤니케이션이 중요하다고 생각합니다. 항상 좀 더 상대방의 입장에서 생각하고 이야기하며 의견을 듣고 조율해서 반영하기 위해, 효율적으로 업무를 진행할 수 있도록 노력합니다.
-              <br>
-              <br>
-              또 어떤 것이든 경험한다는 것을 중요시하기에 끊임없이 부딪치고 도전해 경험을 쌓아갑니다. 웹 개발에 있어서도 에러가 뜨거나, 작동이 되지 않았을 땐 무너지지 않고 차근차근 다시 짚어보며 문제를 찾아내고 해결해냈을 때
-              즐거움을 느낄 수 있었고, 앞으로 접하게 될 수많은 문제들에 있어 차분히 문제를 본다면 해결해낼 수 있을 것이라는 생각을 갖게 된 경험이 되었습니다.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <script src="js/faq.js" defer></script>
-
-  </main>
-
-  <!-- Footer -->
-  <footer id="footer" class="footer">
-
-    <hr>
-    <div class="footer_wrap">
-      <div class="info_wrap">
-
-        <h2 class="footer_title">Leejihyeon's Portfolio</h2>
-
-        <span class="site_info">이 사이트는 개인 포트폴리오 용도로 제작하였으며
-          <br>상업적인 용도로 사용하지 않음을 밝힙니다.</span>
+        <div id="scroll4"></div>
       </div>
 
-      <!-- Contact -->
-      <div class="contact_wrap">
-        <h2 class="footer_title">Contact</h2>
+      <!-- FAQ -->
+      <div id="faq" class="faq_wrap">
+        <h2 class="title">FAQ</h2>
 
-        <ul class="contact">
-          <li class="contact_box">
-            <ul>
-              <li class="contact_item">
-                <p>Email</p>
-                <a href="mailto:eeejihyeon@gmail.com" target="_blank">eeejihyeon@gmail.com</a>
-              </li>
-              <li class="contact_item">
-                <p>Github</p>
-                <a href="https://github.com/eeejihyeon" target="_blank">github.com/eeejihyeon</a>
-              </li>
-            </ul>
-          </li>
+        <div class="faq_box">
+          <div class="faq_item">
+            <button id="faq_btn_1" aria-expanded="false">
+              <span class="faq_title"
+                >디자이너에서 개발자로 전향하게 된 계기</span
+              >
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq_content">
+              <p>
+                프리랜서 디자이너로 작업하던 중 웹 사이트 오픈 프로젝트에서
+                프론트엔드, 백엔드 개발자님들과 협업을 하게 되었고 그 과정에서
+                내가 한 디자인이 그대로 웹 사이트로 구현되어 가는 과정을 보며
+                흥미를 가지게 되면서 ‘디자인에 구현까지 내가 직접 하게 된다면 좀
+                더 섬세한 부분까지도 구현 해낼 수 있지 않을까?’ 라는 생각이
+                들었습니다. 기존에 HTML과 CSS 기초를 공부 해보며 관심을 가지고
+                있었기에 전향을 결심하게 되었습니다.
+              </p>
+            </div>
+          </div>
 
-          <li class="contact_box">
-            <ul>
-              <li class="contact_item">
-                <p>Blog</p>
-                <a href="https://velog.io/@eeejihyeon" target="_blank">velog.io/@eeejihyeon</a>
-              </li>
+          <div class="faq_item">
+            <button id="faq_btn_2" aria-expanded="false">
+              <span class="faq_title">차별화된 나만의 핵심 역량</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq_content">
+              <p>
+                이전에 디자인을 공부하고 직업으로 삼았던 경험으로 UX/UI에 대한
+                충분한 이해도를 가지고 있다는 점과 HTML/CSS로 구현 시 보다
+                섬세하게 설계된 디자인 그대로 구현해 내려는 노력이 있습니다.
+                그리고 개발자와의 협업 시 원활한 커뮤니케이션을 위해 노력했던
+                경험들로 이제는 디자이너, 개발자 모두의 관점에서 이해하며 소통할
+                수 있다는 점이 차별화된 핵심 역량입니다.
+              </p>
+            </div>
+          </div>
 
-              <li class="contact_item">
-                <p>Resume</p>
-                <a href="https://www.notion.so/Profile-8ceeac3d1fbe4b5580cbfd91ff491564" target="_blank">LEE JIHYEON</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
+          <div class="faq_item">
+            <button id="faq_btn_3" aria-expanded="false">
+              <span class="faq_title"
+                >기술과 업무 역량을 높이기 위한 학습 방법</span
+              >
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq_content">
+              <p>
+                코딩을 배우고자 다녔던 학원에서는 Vanilla JS보다는 jQuery와
+                플러그인 위주로만 강의를 해주었고, Vanilla JS에 더 비중을 두고
+                React나 Vue 같은 프레임워크도 다룰 줄 알아야 한다는 것을 알았을
+                때부터는 개인적으로 구글링, 유튜브와 스택오버플로우 등 다양한
+                사이트와 인터넷 강의, 책을 찾아보며 예제를 따라 해보고
+                프로젝트에 응용해 보며 공부했습니다.
+              </p>
+            </div>
+          </div>
 
+          <div class="faq_item">
+            <button id="faq_btn_4" aria-expanded="false">
+              <span class="faq_title">업무에 있어서 중요하게 생각하는 점</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq_content">
+              <p>
+                어떤 분야에서든 협업과 커뮤니케이션이 중요하다고 생각합니다.
+                항상 좀 더 상대방의 입장에서 생각하고 이야기하며 의견을 듣고
+                조율해서 반영하기 위해, 효율적으로 업무를 진행할 수 있도록
+                노력합니다.
+                <br />
+                <br />
+                또 어떤 것이든 경험한다는 것을 중요시하기에 끊임없이 부딪치고
+                도전해 경험을 쌓아갑니다. 웹 개발에 있어서도 에러가 뜨거나,
+                작동이 되지 않았을 땐 무너지지 않고 차근차근 다시 짚어보며
+                문제를 찾아내고 해결해냈을 때 즐거움을 느낄 수 있었고, 앞으로
+                접하게 될 수많은 문제들에 있어 차분히 문제를 본다면 해결해낼 수
+                있을 것이라는 생각을 갖게 된 경험이 되었습니다.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="copy">Copyright &copy; 2022 Lee Jihyeon</div>
-  </footer>
-</body>
+      <script src="js/faq.js" defer></script>
+    </main>
 
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+      <hr />
+      <div class="footer_wrap">
+        <div class="info_wrap">
+          <h2 class="footer_title">Leejihyeon's Portfolio</h2>
+
+          <span class="site_info"
+            >이 사이트는 개인 포트폴리오 용도로 제작하였으며 <br />상업적인
+            용도로 사용하지 않음을 밝힙니다.</span
+          >
+        </div>
+
+        <!-- Contact -->
+        <div class="contact_wrap">
+          <h2 class="footer_title">Contact</h2>
+
+          <ul class="contact">
+            <li class="contact_box">
+              <ul>
+                <li class="contact_item">
+                  <p>Email</p>
+                  <a href="mailto:eeejihyeon@gmail.com" target="_blank"
+                    >eeejihyeon@gmail.com</a
+                  >
+                </li>
+                <li class="contact_item">
+                  <p>Github</p>
+                  <a href="https://github.com/eeejihyeon" target="_blank"
+                    >github.com/eeejihyeon</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="contact_box">
+              <ul>
+                <li class="contact_item">
+                  <p>Blog</p>
+                  <a href="https://velog.io/@eeejihyeon" target="_blank"
+                    >velog.io/@eeejihyeon</a
+                  >
+                </li>
+
+                <li class="contact_item">
+                  <p>Resume</p>
+                  <a
+                    href="https://www.notion.so/Profile-8ceeac3d1fbe4b5580cbfd91ff491564"
+                    target="_blank"
+                    >LEE JIHYEON</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copy">Copyright &copy; 2022 Lee Jihyeon</div>
+    </footer>
+
+    <script src="js/night.js" defer></script>
+  </body>
 </html>
