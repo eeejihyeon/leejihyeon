@@ -25,13 +25,13 @@ body {
   font-family: "spoqa han sans neo";
   font-weight: 500;
   font-size: 1rem;
-  color: #617c9b;
+  color: var(--accent-color);
 }
 
 .point_eng {
   font-family: "PoppinsR";
   font-size: 1.12rem;
-  color: #617c9b;
+  color: var(--accent-color);
 }
 
 /* header */
@@ -110,20 +110,53 @@ body {
 
 /*** Intro ***/
 .intro_wrap {
-  margin-top: 8%;
+  margin-top: 2%;
   /* margin-bottom: 15%; */
 }
 
 .intro_container {
+  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-size: 100px;
-  text-align: center;
-  line-height: 90px;
-  margin-bottom: 60px;
+  font-size: 110px;
+  line-height: 100px;
+  margin-bottom: 50px;
   font-weight: 300;
+}
+
+.intro_main {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main1 {
+  text-align: start;
+}
+.main2 {
+  text-align: end;
+}
+.main3 {
+  text-align: center;
+}
+
+.intro_bg {
+  width: 80%;
+  vertical-align: middle;
+}
+
+.intro_text {
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
 }
 
 .intro_name {
@@ -134,7 +167,15 @@ body {
   font-size: 20px;
   line-height: 70px;
   text-align: center;
-  margin: 80px auto 110px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.intro_exp {
+  flex-basis: 28%;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: justify;
 }
 
 /*** About Me ***/
@@ -442,7 +483,7 @@ body {
 .faq_box button[aria-expanded="true"] + .faq_content {
   opacity: 1;
   max-height: 13rem;
-  transition: all 0.3s linear;
+  transition: all 0.5s linear;
   will-change: opacity, max-height;
 }
 

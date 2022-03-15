@@ -88,12 +88,27 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-size: 60px;
-  text-align: center;
-  line-height: 55px;
-  margin-top: 60px;
+  font-size: 50px;
+  line-height: 45px;
+  margin-top: 50px;
   font-weight: 300;
   transition: all 0.3s;
+}
+
+.intro_main {
+  width: 75%;
+}
+
+.intro_bg {
+  width: 90%;
+}
+
+.intro_text {
+  padding: 0 5%;
+  margin-bottom: 10%;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 15%;
 }
 
 .intro_name {
@@ -104,8 +119,8 @@ body {
   font-size: 14px;
   line-height: 50px;
   text-align: center;
-  margin: 60px auto;
   transition: all 0.3s;
+  margin: 3rem auto;
 }
 
 /*** About Me ***/
@@ -114,7 +129,7 @@ body {
   justify-content: space-between;
   flex-direction: column;
   padding: 0 5%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 /* Link */
@@ -197,7 +212,7 @@ body {
 
 .st_wrap {
   padding: 0 5%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 .title {
@@ -251,7 +266,7 @@ body {
 
 .proj_wrap {
   padding: 0 5%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 .proj_container1 {
@@ -290,7 +305,7 @@ body {
 /*** FAQ ***/
 .faq_wrap {
   padding: 0 5%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 /*** Footer ***/
