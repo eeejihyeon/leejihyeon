@@ -187,25 +187,9 @@ body {
   flex-flow: column wrap;
 }
 
-.about_intro p {
-  margin-bottom: 1.25rem;
-}
-
-.sec {
+.about_intro .sec {
   flex-basis: 100%;
-}
-
-.p_eng {
-  font-family: "Poppins";
-  font-size: 1.12rem;
-  font-weight: 300;
-  line-height: 1.3rem;
-}
-
-.p_kor {
-  font-family: "Spoqa Han Sans Neo";
-  font-size: 1rem;
-  font-weight: 300;
+  margin-bottom: 2rem;
 }
 
 /*** Skill & Tool ***/
@@ -283,12 +267,6 @@ body {
   text-align: center;
 }
 
-/* .proj_box {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row wrap;
-} */
-
 .proj_item {
   display: flex;
   flex-direction: column;
@@ -296,10 +274,7 @@ body {
 }
 
 .proj_item img {
-  /* width: 30%; */
-  /* height: 250px; */
   display: block;
-  /* margin-bottom: 0.6rem; */
 }
 
 /*** FAQ ***/

@@ -22,15 +22,8 @@ body {
 }
 
 .point {
-  font-family: "spoqa han sans neo";
-  font-weight: 500;
+  font-family: "Noto Sans KR Bold";
   font-size: 1rem;
-  color: var(--accent-color);
-}
-
-.point_eng {
-  font-family: "PoppinsR";
-  font-size: 1.12rem;
   color: var(--accent-color);
 }
 
@@ -236,8 +229,7 @@ body {
   background-color: var(--text-color);
 }
 .about_profile p {
-  font-family: "Poppins";
-  font-weight: 300;
+  font-family: "Noto Sans KR Light";
   font-size: 1.2rem;
 }
 
@@ -248,18 +240,32 @@ body {
 
 .sec {
   flex-basis: 47%;
-  /* text-align: justify; */
+}
+
+.lang {
+  font-family: "Ortica";
+  font-size: 0.8rem;
+  width: 70px;
+  height: 25px;
+  border: 1px solid #121213;
+  border-radius: 50% / 50%;
+  margin-bottom: 1rem;
+  text-align: center;
+  line-height: 25px;
+  display: block;
 }
 
 .p_eng {
-  font-family: "PoppinsT";
-  font-size: 1.12rem;
-  line-height: 1.3rem;
+  font-family: "Noto Sans KR Light";
+  font-size: 1rem;
+  line-height: 1.47rem;
+  text-align: justify;
 }
 
 .p_kor {
-  font-family: "Spoqa Han Sans Neo";
-  font-weight: 300;
+  font-family: "Noto Sans KR Light";
+  font-size: 1rem;
+  text-align: justify;
 }
 
 /*** Skill & Tool ***/
@@ -331,8 +337,7 @@ body {
 }
 
 .st_det span {
-  font-family: "Spoqa Han Sans Neo";
-  font-weight: 300;
+  font-family: "Noto Sans KR Light";
   font-size: 1rem;
 }
 
@@ -374,7 +379,7 @@ body {
   width: 100%;
   /* height: 250px; */
   display: block;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
   cursor: pointer;
   border: 1px solid #121213;
 }
@@ -497,8 +502,7 @@ body {
 }
 
 .faq_box .faq_content p {
-  font-family: "Spoqa Han Sans Neo";
-  font-weight: 300;
+  font-family: "Noto Sans KR Light";
   font-size: 0.9rem;
   margin: 1.5rem 0;
 }
@@ -525,8 +529,7 @@ body {
 }
 
 .site_info {
-  font-family: "spoqa han sans neo";
-  font-weight: 300;
+  font-family: "Noto Sans KR Light";
   font-size: 0.8rem;
   line-height: 0.9rem;
   flex-basis: 49%;
@@ -557,9 +560,8 @@ body {
 }
 
 .contact a {
-  font-family: "Spoqa Han Sans Neo";
+  font-family: "Noto Sans KR Light";
   font-size: 0.9rem;
-  font-weight: 300;
   line-height: 1.6;
   margin-left: 0.8rem;
 }

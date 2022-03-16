@@ -164,19 +164,6 @@ body {
   flex-basis: 47%;
 }
 
-.p_eng {
-  font-family: "Poppins";
-  font-size: 1.12rem;
-  font-weight: 300;
-  line-height: 1.3rem;
-}
-
-.p_kor {
-  font-family: "Spoqa Han Sans Neo";
-  font-size: 1rem;
-  font-weight: 300;
-}
-
 /*** Skill & Tool ***/
 
 .st_wrap {
@@ -197,17 +184,6 @@ body {
   justify-content: center;
   flex-flow: row wrap;
 }
-
-/* .st_dev {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-.st_des {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-} */
 
 .st_container1 p {
   width: 135px;
@@ -265,10 +241,7 @@ body {
 }
 
 .proj_item img {
-  /* width: 30%; */
-  /* height: 250px; */
   display: block;
-  margin-bottom: 0.6rem;
 }
 
 /*** FAQ ***/
