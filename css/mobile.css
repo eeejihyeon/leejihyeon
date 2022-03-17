@@ -213,17 +213,6 @@ body {
   flex-flow: row wrap;
 }
 
-/* .st_dev {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-}
-.st_des {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-} */
-
 .st_container1 p {
   width: 135px;
   height: 45px;

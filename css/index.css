@@ -384,18 +384,15 @@ body {
   border: 1px solid #121213;
 }
 
-.project_title {
+.proj_item a {
+  cursor: pointer;
   font-size: 1.2rem;
   margin-bottom: 2.5rem;
 }
 
-.project_title:hover {
+.proj_item a:hover {
   color: var(--accent-color);
   transition: all 0.3s;
-}
-
-.proj_item a {
-  cursor: pointer;
 }
 
 /*** FAQ ***/
