@@ -218,16 +218,6 @@ body {
   margin-bottom: 3rem;
 }
 
-.sub {
-  width: 135px;
-  height: 45px;
-  border: 1px solid #121213;
-  border-radius: 50%/50%;
-  margin: 0.6rem auto 2rem;
-  line-height: 45px;
-  text-align: center;
-}
-
 .proj_box {
   display: flex;
   justify-content: space-between;

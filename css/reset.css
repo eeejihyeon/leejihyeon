@@ -5,31 +5,6 @@
   src: url("../fonts/Ortica-Light.otf");
 }
 
-/* @font-face {
-  font-family: "PoppinsT";
-  src: url("../fonts/Poppins-Thin.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "PoppinsL";
-  src: url("../fonts/Poppins-Light.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "PoppinsR";
-  src: url("../fonts/Poppins-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "PoppinsB";
-  src: url("../fonts/Poppins-Bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Spoqa Han Sans Neo", "sans-serif";
-  src: url("../fonts/SpoqaHanSansNeo-Light.ttf") format("truetype");
-} */
-
 @font-face {
   font-family: "Noto Sans KR Light";
   src: url("../fonts/NotoSansKR-Light.otf");

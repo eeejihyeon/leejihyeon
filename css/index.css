@@ -27,6 +27,53 @@ body {
   color: var(--accent-color);
 }
 
+.hidden {
+  display: none;
+}
+
+.fadein {
+  animation: fadein 1.5s;
+}
+
+.fadeout {
+  animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* header */
 
 .header {
@@ -149,7 +196,7 @@ body {
   padding: 0 10%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 120px;
+  margin-bottom: 7.5rem;
 }
 
 .intro_name {
@@ -165,9 +212,10 @@ body {
 }
 
 .intro_exp {
+  font-family: "Noto sans Kr Light";
   flex-basis: 28%;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.4;
   text-align: justify;
 }
 
@@ -348,18 +396,32 @@ body {
   margin-bottom: 10%;
 }
 
-.proj_container1 {
+.proj_wrap .proj_container {
   margin-bottom: 3rem;
 }
 
 .sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 135px;
   height: 45px;
   border: 1px solid #121213;
   border-radius: 50%/50%;
   margin: 0.6rem auto 2rem;
-  line-height: 45px;
+  line-height: 1.5;
   text-align: center;
+  font-family: "Ortica";
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.sub:hover {
+  background-color: #121213;
+  color: #f4f4f4;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .proj_box {
@@ -559,7 +621,7 @@ body {
 .contact a {
   font-family: "Noto Sans KR Light";
   font-size: 0.9rem;
-  line-height: 1.6;
+  line-height: 1.5;
   margin-left: 0.8rem;
 }
 
