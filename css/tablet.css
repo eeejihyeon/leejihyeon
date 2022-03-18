@@ -105,11 +105,14 @@ body {
 
 /*** About Me ***/
 .about_wrap {
+  padding: 0 5%;
+  margin-bottom: 10%;
+}
+
+.about_containers {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  padding: 0 5%;
-  margin-bottom: 10%;
 }
 
 /* Link */

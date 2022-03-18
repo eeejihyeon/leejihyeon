@@ -151,6 +151,8 @@ body {
 /*** Intro ***/
 .intro_wrap {
   margin-top: 2%;
+  margin-bottom: 7.5rem;
+
   /* margin-bottom: 15%; */
 }
 
@@ -196,7 +198,6 @@ body {
   padding: 0 10%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 7.5rem;
 }
 
 .intro_name {
@@ -221,10 +222,14 @@ body {
 
 /*** About Me ***/
 .about_wrap {
-  display: flex;
-  justify-content: space-between;
   padding: 0 10%;
   margin-bottom: 10%;
+}
+
+.about_containers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
 }
 
 .about_container1 {
@@ -329,46 +334,25 @@ body {
   text-align: center;
 }
 
-.st_container1 {
-  width: 100%;
-  margin: 0 auto 3.1rem;
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  flex-grow: 0;
+.st_container {
+  margin-bottom: 3rem;
 }
 
-/* .st_dev {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-.st_des {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-} */
-
-.st_container1 p {
-  width: 135px;
-  height: 45px;
+.st_container p {
+  width: 100px;
+  height: 33px;
   border: 1px solid #121213;
   border-radius: 50%/50%;
-  margin: 10px;
-  line-height: 45px;
+  margin: 10px 0 1rem;
+  line-height: 33px;
   text-align: center;
-  font-weight: 500;
+  font-size: 0.8rem;
 }
 
-.st_container2 {
+.st_box {
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
-}
-
-.st_container2 p {
-  font-size: 1.2rem;
-  color: var(--accent-color);
 }
 
 .st_det {
