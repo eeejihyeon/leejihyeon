@@ -1,7 +1,7 @@
 const container = document.querySelector(".fade");
 const development = document.querySelector("#development");
 const design = document.querySelector("#design");
-const btn = document.querySelector(".sub");
+const btn = document.querySelector(".proj_wrap .sub");
 
 const HIDDEN_CLASS = "hidden";
 const FADEIN_CLASS = "fadein";
