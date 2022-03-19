@@ -6,3 +6,7 @@
   project에 front-end, design toggle button 만들어 내용 전환되도록 한 js 파일을 복사해서 skill&tool 부분도 적용 시켰는데
   Uncaught SyntaxError: Identifier 'container' has already been declared 라는 문구가 뜨고, 'container' 부분을 지우면 다음 const가 에러로 뜨는 현상
   : const로 이미 project.js에서 상수 사용했기 때문에 같은 상수명 사용하면 안 됨, const 상수명 모두 수정해주니 해결
+
+* 22-03-19
+  mode.js에서 p.style.color = "" 하면 Uncaught TypeError: Cannot set properties of undefined (setting 'color')라고 에러가 뜨면서 실행 안 되는 현상
+  : querySelectorAll("p")로 불러냈을 때, for문으로 p.[i].style.color = "" 으로 넣어서 해결
