@@ -10,3 +10,20 @@
 * 22-03-19
   mode.js에서 p.style.color = "" 하면 Uncaught TypeError: Cannot set properties of undefined (setting 'color')라고 에러가 뜨면서 실행 안 되는 현상
   : querySelectorAll("p")로 불러냈을 때, for문으로 p.[i].style.color = "" 으로 넣어서 해결
+
+* 22-03-21
+  const anchors = document.querySelectorAll("a"); 로 불러온 a들에 night CSS를 넣어서 한 번에 color 변경하려고 anchors.style.color = "colorName" 했는데 error 뜨는 현상
+  :  anchors.forEach((anchor) => {
+    anchor.classList.toggle("night");
+  });로 forEach 써서 해결! 한 번에 넣을 생각 밖에 안 했는데 각각 들어가야 한다는 생각하니 해결 됐다!
+
+
+
+
+mode.js
+//// 한 번에 같은 태그/클래스 한 번에 CSS 변경하기 ////
+// 22-03-19 / 22-03-21 //
+
+- 1차 시도: const tag로 저장해서 tag.style.color = colorName 이렇게 다 넣어 주려니 for문도 써야하고 안에 불러오는 것도 길어지고?해서 obj로 묶어서 한 번에 불러오려고 했는데 그것도 error
+
+- 2차 시도: selectorAll로 불러온 tag에 각각 넣어줘야하기 때문에 forEach 써서 넣었더니 성공

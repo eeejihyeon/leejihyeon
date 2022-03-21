@@ -1,5 +1,6 @@
 :root {
-  --text-color: #121213;
+  --dark-color: #121213;
+  --light-color: #f4f4f4;
   --accent-color: #617c9b;
 }
 html {
@@ -279,7 +280,7 @@ body {
   width: 100%;
   height: 1px;
   border: none;
-  background-color: var(--text-color);
+  background-color: var(--dark-color);
 }
 .about_profile p {
   font-family: "Noto Sans KR Light";
@@ -311,7 +312,7 @@ body {
 .p_eng {
   font-family: "Noto Sans KR Light";
   font-size: 1rem;
-  line-height: 1.47rem;
+  line-height: 1.46rem;
   text-align: justify;
 }
 
@@ -638,4 +639,14 @@ body {
   width: 100%;
   height: 2px;
   background-color: #f4f4f4;
+}
+
+.night_a {
+  color: #f4f4f4;
+  cursor: pointer;
+}
+
+.night_a:hover {
+  color: #617c9b;
+  cursor: pointer;
 }
