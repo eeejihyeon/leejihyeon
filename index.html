@@ -60,7 +60,18 @@
             <p class="intro_item main2">Front-end</p>
             <p class="intro_item main3">Developer</p>
           </div>
-          <img src="./images/main.png" alt="intro" class="intro_bg" />
+          <img
+            src="./images/main.png"
+            alt="intro"
+            class="intro_bg"
+            id="introDay"
+          />
+          <img
+            src="./images/main_night.png"
+            alt="intro"
+            class="intro_bg hidden"
+            id="introNight"
+          />
         </div>
 
         <!-- <div class="intro_container">
@@ -181,28 +192,28 @@
         <div class="st_container fadein" id="st_development">
           <div class="st_box">
             <div class="st_det">
-              <p>React</p>
-              <hr />
+              <p class="st_name">React</p>
+              <hr class="st_line" />
               <span>React</span>
             </div>
 
             <div class="st_det">
-              <p>TypeScript</p>
-              <hr />
+              <p class="st_name">TypeScript</p>
+              <hr class="st_line" />
               <span>TypeScript </span>
             </div>
 
             <div class="st_det">
-              <p>JavaScript</p>
-              <hr />
+              <p class="st_name">JavaScript</p>
+              <hr class="st_line" />
               <span
                 >Vanilla JS와 jQuery를 이용해 동작을 구현할 수 있습니다.
               </span>
             </div>
 
             <div class="st_det">
-              <p>HTML5 / CSS3</p>
-              <hr />
+              <p class="st_name">HTML5 / CSS3</p>
+              <hr class="st_line" />
               <span
                 >웹 표준을 준수하려 노력하며 기획된 디자인을 토대로 디테일한
                 부분과 애니메이션 동작 등을 구현, 반응/적응형에 대해 이해하고
@@ -211,8 +222,8 @@
             </div>
 
             <div class="st_det">
-              <p>Git / GitHub</p>
-              <hr />
+              <p class="st_name">Git / GitHub</p>
+              <hr class="st_line" />
               <span
                 >Git을 이용해 형상관리가 가능합니다.
                 <br />
@@ -222,8 +233,8 @@
             </div>
 
             <div class="st_det">
-              <p>PHP / MySQL</p>
-              <hr />
+              <p class="st_name">PHP / MySQL</p>
+              <hr class="st_line" />
               <span
                 >php와 데이터베이스를 연결해 회원가입, 관리 등 데이터 관리가
                 가능합니다.
@@ -235,16 +246,16 @@
         <div class="st_container fadein hidden" id="st_design">
           <div class="st_box">
             <div class="st_det">
-              <p>Photoshop</p>
-              <hr />
+              <p class="st_name">Photoshop</p>
+              <hr class="st_line" />
               <span
                 >UXUI 기획 및 웹 디자인과 그래픽, 브랜딩 디자인이 가능합니다.
               </span>
             </div>
 
             <div class="st_det">
-              <p>Illustrator</p>
-              <hr />
+              <p class="st_name">Illustrator</p>
+              <hr class="st_line" />
               <span
                 >메쉬와 그라디언트, 패스 등의 툴을 이용해 로고와 일러스트,
                 그래픽 이미지 등 요소를 만들어낼 수 있습니다.
@@ -252,8 +263,8 @@
             </div>
 
             <div class="st_det">
-              <p>XD</p>
-              <hr />
+              <p class="st_name">XD</p>
+              <hr class="st_line" />
               <span
                 >웹 디자인과 와이어 프레임 등 제작, 협업 시에 사용할 수
                 있습니다.</span
@@ -261,8 +272,8 @@
             </div>
 
             <div class="st_det">
-              <p>Indesign</p>
-              <hr />
+              <p class="st_name">Indesign</p>
+              <hr class="st_line" />
               <span>내용</span>
             </div>
           </div>
@@ -380,7 +391,7 @@
 
         <div class="faq_box">
           <div class="faq_item">
-            <button id="faq_btn_1" aria-expanded="false">
+            <button id="faq_btn_1" aria-expanded="false" class="faq_btn">
               <span class="faq_title"
                 >디자이너에서 개발자로 전향하게 된 계기</span
               >
@@ -400,7 +411,7 @@
           </div>
 
           <div class="faq_item">
-            <button id="faq_btn_2" aria-expanded="false">
+            <button id="faq_btn_2" aria-expanded="false" class="faq_btn">
               <span class="faq_title">차별화된 나만의 핵심 역량</span>
               <span class="icon" aria-hidden="true"></span>
             </button>
@@ -417,7 +428,7 @@
           </div>
 
           <div class="faq_item">
-            <button id="faq_btn_3" aria-expanded="false">
+            <button id="faq_btn_3" aria-expanded="false" class="faq_btn">
               <span class="faq_title"
                 >기술과 업무 역량을 높이기 위한 학습 방법</span
               >
@@ -436,7 +447,7 @@
           </div>
 
           <div class="faq_item">
-            <button id="faq_btn_4" aria-expanded="false">
+            <button id="faq_btn_4" aria-expanded="false" class="faq_btn">
               <span class="faq_title">업무에 있어서 중요하게 생각하는 점</span>
               <span class="icon" aria-hidden="true"></span>
             </button>
@@ -465,7 +476,7 @@
 
     <!-- Footer -->
     <footer id="footer" class="footer">
-      <hr />
+      <hr class="foo_line" />
       <div class="footer_wrap">
         <div class="info_wrap">
           <h2 class="footer_title">Leejihyeon's Portfolio</h2>

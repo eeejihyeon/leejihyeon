@@ -37,7 +37,7 @@ body {
 }
 
 .fadeout {
-  animation: fadein 1.5s;
+  animation: fadeout 1.5s;
 }
 
 @keyframes fadein {
@@ -72,6 +72,39 @@ body {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
@@ -339,17 +372,6 @@ body {
   margin-bottom: 3rem;
 }
 
-.st_container p {
-  width: 100px;
-  height: 33px;
-  border: 1px solid #121213;
-  border-radius: 50%/50%;
-  margin: 10px 0 1rem;
-  line-height: 33px;
-  text-align: center;
-  font-size: 0.8rem;
-}
-
 .st_box {
   display: flex;
   justify-content: space-between;
@@ -362,7 +384,18 @@ body {
   margin-bottom: 2.5rem;
 }
 
-.st_det hr {
+.st_name {
+  width: 100px;
+  height: 33px;
+  border: 1px solid #121213;
+  border-radius: 50%/50%;
+  margin: 10px 0 1rem;
+  line-height: 33px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.st_line {
   height: 1px;
   background-color: #121213;
   border: 0;
@@ -458,7 +491,7 @@ body {
   border-bottom: 2px solid #617c9b;
 }
 
-.faq_box button {
+.faq_btn {
   position: relative;
   display: block;
   text-align: left;
@@ -556,7 +589,7 @@ body {
   padding: 0 10%;
 }
 
-.footer hr {
+.foo_line {
   height: 2px;
   background-color: #121213;
   margin-bottom: 30px;
@@ -649,4 +682,44 @@ body {
 .night_a:hover {
   color: #617c9b;
   cursor: pointer;
+}
+
+.night_text {
+  color: #f4f4f4;
+}
+
+.night_bg {
+  background-color: #121213;
+}
+
+.night_point_text {
+  border: 1px solid #f4f4f4;
+  color: #f4f4f4;
+}
+
+.night_btn {
+  border: 1px solid #f4f4f4;
+  color: #f4f4f4;
+}
+
+.night_btn:hover {
+  border: 1px solid #f4f4f4;
+  background-color: #f4f4f4;
+  color: #121213;
+}
+
+.night_faq {
+  color: #f4f4f4;
+  cursor: pointer;
+}
+
+.night_faq:hover::after,
+.night_faq:focus::after {
+  cursor: pointer;
+  color: #617c9b;
+  border: 1px solid #617c9b;
+}
+
+.night_hr {
+  background-color: #f4f4f4;
 }
