@@ -17,7 +17,9 @@
     anchor.classList.toggle("night");
   });로 forEach 써서 해결! 한 번에 넣을 생각 밖에 안 했는데 각각 들어가야 한다는 생각하니 해결 됐다!
 
-
+* 22-03-21
+  mode.js에서 classList.~~으로 intro image change 했는데 Cannot read properties of undefined (classList) error
+  : img 두개를 querySelector(".~ .~ img:first-child"), querySelector(".~ .~ img:last-child") 이렇게 선택해서 classList를 받아올 수 없었던 것, HTML에서 id 주고 JS에서 id로 querySelector 하니까 해결
 
 
 mode.js
