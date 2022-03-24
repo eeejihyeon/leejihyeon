@@ -20,6 +20,8 @@ const NIGHT_A = "night_a";
 const NIGHT_TEXT = "night_text";
 const NIGHT_POINT_TEXT = "night_point_text";
 const NIGHT_BTN = "night_btn";
+const NIGHT_MENU = "night_menu";
+const NIGHT_NAV_BG = "night_nav_bg";
 
 function introChange() {
   // intro image //
@@ -54,17 +56,19 @@ function pointText() {
   });
 }
 
+function mobileChange() {
+  const navBg = document.querySelector(".nav_bg");
+  const menu = document.querySelector(".menu");
+  navBg.classList.toggle(NIGHT_NAV_BG);
+  menu.classList.toggle(NIGHT_NAV_BG);
+}
+
 function handleDayNightMode() {
   // body & gnb background color //
   body.classList.toggle(NIGHT_BG);
   gnb.classList.toggle(NIGHT_BG);
 
   // mode button //
-  if ((modeBtn.innerText = "Night")) {
-    modeBtn.innerText = "Day";
-  } else {
-    modeBtn.innerText = "Night";
-  } // !!!!!!!!!! Day - Night 변경 왜 안 되지...
   modeBtn.classList.toggle(NIGHT_BTN);
 
   // text color //
@@ -87,6 +91,7 @@ function handleDayNightMode() {
 
   introChange();
   pointText();
+  mobileChange();
 }
 
 modeBtn.addEventListener("click", handleDayNightMode);

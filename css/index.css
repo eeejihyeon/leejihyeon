@@ -156,11 +156,15 @@ body {
   right: 50px;
   width: 75px;
   height: 25px;
-  line-height: 1.6;
   border: 1px solid #121213;
   border-radius: 50% / 50%;
   background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
+}
+
+.btn::after {
+  content: "Night";
+  line-height: 1.6;
 }
 
 .btn:hover {
@@ -700,6 +704,10 @@ body {
 .night_btn {
   border: 1px solid #f4f4f4;
   color: #f4f4f4;
+}
+
+.night_btn::after {
+  content: "Day";
 }
 
 .night_btn:hover {

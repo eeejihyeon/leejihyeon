@@ -30,40 +30,6 @@ body {
 }
 
 /*** GNB ***/
-.gnb {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  background-color: #f4f4f4;
-  opacity: 95%;
-}
-
-.menu {
-  display: flex;
-  align-items: center;
-}
-
-.menu li {
-  padding: 20px;
-}
-.dn {
-  width: 100%;
-  position: fixed;
-  z-index: 1000;
-}
-
-.btn {
-  position: absolute;
-  top: 20px;
-  right: 50px;
-  width: 75px;
-  height: 25px;
-  border: 1px solid #121213;
-  border-radius: 50% / 50%;
-  background-color: rgba(0, 0, 0, 0);
-  cursor: pointer;
-}
 
 /*** Intro ***/
 
