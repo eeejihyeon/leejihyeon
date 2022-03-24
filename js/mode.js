@@ -69,7 +69,7 @@ function handleDayNightMode() {
   gnb.classList.toggle(NIGHT_BG);
 
   // mode button //
-  modeBtn.classList.toggle(NIGHT_BTN);
+  modeBtn.classList.toggle("night_mode_btn");
 
   // text color //
   anchors.forEach((anchor) => {

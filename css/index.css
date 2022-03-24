@@ -696,6 +696,15 @@ body {
   background-color: #121213;
 }
 
+.night_mode_btn {
+  border: 1px solid #f4f4f4;
+  color: #f4f4f4;
+}
+
+.night_mode_btn::after {
+  content: "Day";
+}
+
 .night_point_text {
   border: 1px solid #f4f4f4;
   color: #f4f4f4;
@@ -704,10 +713,6 @@ body {
 .night_btn {
   border: 1px solid #f4f4f4;
   color: #f4f4f4;
-}
-
-.night_btn::after {
-  content: "Day";
 }
 
 .night_btn:hover {
