@@ -59,8 +59,13 @@ function pointText() {
 function mobileChange() {
   const navBg = document.querySelector(".nav_bg");
   const menu = document.querySelector(".menu");
+  const mGnbBtn = document.querySelectorAll(".menu_line");
+
   navBg.classList.toggle(NIGHT_NAV_BG);
   menu.classList.toggle(NIGHT_NAV_BG);
+  mGnbBtn.forEach((line) => {
+    line.classList.toggle("night_line");
+  });
 }
 
 function handleDayNightMode() {
@@ -86,7 +91,7 @@ function handleDayNightMode() {
 
   // hr //
   hrs.forEach((hr) => {
-    hr.classList.toggle("night_hr");
+    hr.classList.toggle("night_line");
   });
 
   introChange();

@@ -73,11 +73,126 @@ body {
   right: 5%;
 }
 
-.togglebtn {
+.menu_btn {
+  position: absolute;
+  top: 20px;
+  left: 5%;
   display: block;
+  cursor: pointer;
+  transform: translate((-50%, -50%));
 }
 
-.menu.active {
+.menu_line {
+  display: block;
+  background-color: #121213;
+  width: 24px;
+  height: 2px;
+  transition: 0.25s margin 0.25s, 0.25s transform;
+}
+
+.menu_btn span:nth-child(1) {
+  margin-bottom: 7px;
+}
+
+.menu_btn span:nth-child(3) {
+  margin-top: 7px;
+}
+
+.menu_btn.active span {
+  transition: 0.25s margin, 0.25s transform 0.25s;
+}
+
+.menu_btn.active span:nth-child(1) {
+  margin-top: 7px;
+  margin-bottom: -2px;
+  transform: rotate(45deg);
+}
+
+.menu_btn.active span:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.menu_btn.active span:nth-child(3) {
+  margin-top: -2px;
+  transform: rotate(135deg);
+}
+
+.menu_fadein {
+  animation: fadein 1.5s;
+}
+
+.menu_fadeout {
+  animation: fadeout 1.5s;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 95%;
+  }
+}
+@-moz-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 95%;
+  }
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 95%;
+  }
+}
+
+@-o-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 95%;
+  }
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 95%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fadeout {
+  0% {
+    opacity: 95%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fadeout {
+  0% {
+    opacity: 95%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes fadeout {
+  0% {
+    opacity: 95%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.menu.flex {
   display: flex;
 }
 
@@ -268,4 +383,8 @@ body {
 
 .night_nav_bg {
   background-color: #121213;
+}
+
+.night_line {
+  background-color: #f4f4f4;
 }
