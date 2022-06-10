@@ -237,6 +237,22 @@ body {
   vertical-align: middle;
 }
 
+.bg_day {
+  width: 80%;
+  height: 70vh;
+  background: url(../images/main.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.bg_night {
+  width: 80%;
+  height: 70vh;
+  background: url(../images/main_night.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .intro_text {
   padding: 0 15%;
   display: flex;

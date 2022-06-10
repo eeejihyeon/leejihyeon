@@ -55,6 +55,18 @@ body {
   width: 90%;
 }
 
+.bg_day {
+  width: 90%;
+  height: 70vh;
+  background-size: cover;
+}
+
+.bg_night {
+  width: 90%;
+  height: 70vh;
+  background-size: cover;
+}
+
 .intro_text {
   padding: 0 10%;
 }
