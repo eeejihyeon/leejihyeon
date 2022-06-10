@@ -14,6 +14,7 @@ const paras = document.querySelectorAll("p");
 const divTexts = document.querySelectorAll("div");
 const questions = document.querySelectorAll(".faq_btn");
 const hrs = document.querySelectorAll(".line, .st_line, .foo_line");
+const projectThums = document.querySelectorAll(".project_thum");
 
 const NIGHT_BG = "night_bg";
 const NIGHT_A = "night_a";
@@ -92,6 +93,11 @@ function handleDayNightMode() {
   // hr //
   hrs.forEach((hr) => {
     hr.classList.toggle("night_line");
+  });
+
+  // project image //
+  projectThums.forEach((thum) => {
+    thum.classList.toggle("project_thum_n");
   });
 
   introChange();
